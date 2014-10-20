@@ -8,10 +8,15 @@ Vagrant Google Compute Engine Boilerplate
  - `vagrant plugin install dotenv`
 
 ## Environment
-- CentOS 6 or CentOS 7 or CoreOS alpha
+- OS
+ - CentOS 6
+ - CentOS 7
+ - CoreOS alpha
 - git
 - zsh
-- prezto or oh-my-zsh
+ - clean zsh
+ - prezto
+ - oh-my-zsh
 
 ## Usage
 
