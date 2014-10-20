@@ -1,0 +1,5 @@
+.env
+.vagrant/
+Cheffile.lock
+cookbooks/
+tmp/
