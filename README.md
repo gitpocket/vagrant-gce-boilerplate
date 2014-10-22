@@ -46,7 +46,7 @@ Vagrant Google Compute Engine Boilerplate
     GOOGLE_PROJECT_ID   = 'xxxxxxx-xxxxxxx-xxx'
     GOOGLE_CLIENT_EMAIL = 'xxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@developer.gserviceaccount.com'
     GOOGLE_KEY_LOCATION = '~/.ssh/ProjectName-xxxxxxxxxxxx.p12'
-    USERNAME            = 'YourLoginName'
+    USERNAME            = 'YourOSLoginName'
     PRIVATE_KEY_PATH    = '~/.ssh/google_compute_engine'
     ```
 
