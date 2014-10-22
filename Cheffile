@@ -1,4 +1,6 @@
 site "http://community.opscode.com/api/v1"
 
 cookbook 'git'
+cookbook 'tmux'
+cookbook 'yum-epel'
 cookbook 'zsh'
