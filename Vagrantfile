@@ -18,11 +18,14 @@ Vagrant.configure("2") do |config|
     override.ssh.private_key_path = "#{ENV['PRIVATE_KEY_PATH']}"
 
     google.name = "vagrant-google"
-    # imageid 2014/10/16
-    # CentOS6      : centos-6-v20140926
-    # CentOS7      : centos-7-v20140926
-    # CoreOS alpha : coreos-alpha-459-0-0-v20141003
-    google.image = "centos-7-v20140926"
+    # imageid Jan 18, 2015
+    # CentOS6      : centos-6-v20141218
+    # CentOS7      : centos-7-v20141218
+    # CoreOS alpha : coreos-alpha-561-0-0-v20150114
+    # Ubuntu 12.04 : ubuntu-1204-precise-v20141212
+    # Ubuntu 14.04 : ubuntu-1404-trusty-v20141212
+    # Ubuntu 14.10 : ubuntu-1410-utopic-v20141217
+    google.image = "centos-7-v20141218"
     google.machine_type = "f1-micro"
     google.disk_size = "20"
     google.disk_type = "pd-ssd"
